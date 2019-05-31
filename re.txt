@@ -1,0 +1,14 @@
+certifi==2019.3.9
+chardet==3.0.4
+crypto==1.4.1
+Django==2.2.1
+djangorestframework==3.9.4
+ecdsa==0.13.2
+idna==2.8
+Naked==0.1.31
+pytz==2019.1
+PyYAML==5.1
+requests==2.22.0
+shellescape==3.4.1
+sqlparse==0.3.0
+urllib3==1.25.3
