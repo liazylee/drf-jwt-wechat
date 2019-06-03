@@ -20,14 +20,14 @@ def get_version(package):
         return re.search("__version__ = ['\"]([^'\"]+)['\"]", src).group(1)
 
 
-name = 'drf-jwt-wechat'
-version = get_version('drf-jwt-wechat')
-package = 'drf-jwt-wechat'
+name = 'drf_jwt_wechat'
+version = get_version('drf_jwt_wechat')
+package = 'drf_jwt_wechat'
 description = 'JSON Web Token based authentication for Django REST framework,this use to WeChat applet (小程序使用jwt）'
-url = 'https://github.com/liayzlee/drf-jwt-wechat'
+url = 'https://github.com/liazylee/drf-jwt-wechat'
 author = 'liazylee'
 author_email = 'li233111@gmail.com'
-# license = 'MIT'
+license = 'MIT'
 install_requires = [
     'PyJWT>=1.5.2,<2.0.0',
     'djangorestframework-jwt>=1.11.0'
@@ -75,7 +75,7 @@ if sys.argv[-1] == 'publish':
     os.system('twine upload dist/*')
     shutil.rmtree('dist')
     shutil.rmtree('build')
-    shutil.rmtree('drf-jwt-wechat.egg-info')
+    shutil.rmtree('drf_jwt_wechat.egg-info')
     print('You probably want to also tag the version now:')
     print("  git tag -a {0} -m 'version {0}'".format(version))
     print('  git push --tags')

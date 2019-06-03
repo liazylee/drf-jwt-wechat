@@ -3,7 +3,7 @@
 # connect='li233111@gmail.com'
 # -*- coding: utf-8 -*-
 
-__title__ = 'drf-jwt-wechat'
+__title__ = 'drf_jwt_wechat'
 __version__ = '1.11.0'
 __author__ = 'liazylee'
 __license__ = 'MIT'
@@ -11,3 +11,5 @@ __license__ = 'MIT'
 
 # Version synonym
 VERSION = __version__
+
+import drf_jwt_wechat

@@ -34,4 +34,4 @@ Usage
 后续
 ----
 因为水平有限，目前只有登录，没有Refresh Token，以及Verify Token，不影响rest_framework_jwt的api使用。
-任何问题请联系 https://github.com/liazylee/
+任何问题请联系 https://github.com/liazylee/ 源码详解 https://blog.csdn.net/liazylee/article/details/90717939
