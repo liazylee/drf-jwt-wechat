@@ -21,7 +21,7 @@ Usage
 在url中引用
 ::
 
-    from drf-jwt-wechat.views import obtain_jwt_token
+    from drf_jwt_wechat.views import obtain_jwt_token
     #...
 
     urlpatterns = [

@@ -13,3 +13,4 @@ __license__ = 'MIT'
 VERSION = __version__
 
 import drf_jwt_wechat
+import celery
