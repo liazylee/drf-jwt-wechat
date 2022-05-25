@@ -29,7 +29,7 @@ author = 'liazylee'
 author_email = 'li233111@gmail.com'
 license = 'MIT'
 install_requires = [
-    'PyJWT>=1.5.2,<2.0.0',
+    'PyJWT>=1.5.2,<3.0.0',
     'djangorestframework-jwt>=1.11.0',
     'requests'
 ]
